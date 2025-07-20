@@ -53,3 +53,71 @@ body {
     a:hover {
       text-decoration: underline;
     }
+    .blog {
+        background: white;
+        margin: 1rem 0;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .post {
+        margin-bottom: 1.5rem;
+    }
+
+    .post h3 {
+        color: #182848;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Navbar */
+    .navbar {
+    display: flex;
+    justify-content: center;
+    background: #182848;
+    padding: 1rem;
+    list-style: none;
+    }
+    .navbar li {
+    margin: 0 15px;
+    }
+    .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+    /* Header */
+    header {
+    background: linear-gradient(to right, #182848, #4b6cb7);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    }
+    .pic {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    }
+
+    /* Card Layout */
+    .card {
+    background: white;
+    padding: 2rem;
+    margin: 1.5rem auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+    color: #182848;
+    }
+
+    /* Footer */
+    footer {
+    background: #ddd;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    }
